@@ -3,27 +3,35 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* primary colors  */
+/* primary   */
 .primary-color{
     color: #FD6E0A;
+}
+.primary-bg{
+    background-color: #FD6E0A;
 }
 .primary-btn{
     padding: 10px 20px;
     font-weight: bold;
     font-size: 20px;
     color: #FFFFFF;
-    background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
-
 }
 
+/* header style  */
+header{
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 /* nav related style  */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 10%;
 }
 
 nav > ul{
@@ -43,4 +51,36 @@ nav>ul li a{
 
 #logo{
     font-size: 45px;
+}
+
+/* marry hardy section  */
+.hardy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-btn{
+    border: 1px solid #FD6E0A;
+    background: #FFFFFF;
+    color: #FD6E0A;
+}
+
+.mary>h3{
+    color: #474747;
+}
+
+.hardy .mary{
+    width: 50%;
+    padding-left: 10%;
+}
+.image-div{
+    width: 50%;
+    background-image: url(../images/header_bg.png);
+    text-align: right;
+}
+.image-div img{
+    width: 50%;
+    margin: -4px auto;
+    padding-right: 10%;
+    
 }
